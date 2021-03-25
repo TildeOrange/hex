@@ -4,6 +4,8 @@ A hexagonal-grid world generator
 ## What is this?
 This is a prototype (if you couldn't tell by the low-quality code and half-~assed~...written comments) island generation thingy. It creates a hexagonal island from hexagonal-tiles. The "biomes" are generated like a voronoi diagram. Eventually, I plan to layer perlin noise on top of this to create hills and mountains.
 
+![Example Screenshot](https://github.com/TildeOrange/hex/blob/main/example.png?raw=true)
+
 ## How to build.
 If you're on windows, use the MSVC compiler (I used the x64 version) and run build.bat. It is very important you have the right libraries. I use static x64 versions of GLFW, GLEW, and STB. Currently, the STB lib is not used so it can be omitted. These libraries should be placed in lib\binaries\debug and their include files in lib\include
 
